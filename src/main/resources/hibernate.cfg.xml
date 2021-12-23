@@ -11,7 +11,7 @@
        <property name="hibernate.connection.url">jdbc:postgresql://week4-211129.cvtq9j4axrge.us-east-1.rds.amazonaws.com:5432/postgres</property>
         <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.connection.password">postgres</property>
- 	
+ 	<property name="hibernate.default_schema">jahredb</property>
         <!-- SQL dialect -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
   
